@@ -3,19 +3,19 @@
 import json
 
 
-print("nom du flux :")
+print("Nome do Feed:")
 key = input()
 
-print("nom du webhook :")
+print("Nome do Webhook:")
 username = input()
 
-print("url du flux rss :")
+print("URL do RSS:")
 rss_url = input()
 
-print("url du webhook :")
+print("URL do Webhook:")
 url_webhook = input()
 
-print("url avatar :")
+print("URL do avatar do Webhook:")
 url_avatar = input()
 
 guid ="/root/rss-discord/GUID/" + key + ".guid"
